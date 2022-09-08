@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-size: 2rem;
+}
+
+div{
+    background-image: url(img/nuevo\ fondo\ marron.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+     
+
+}
+
+
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+header li{
+    display: inline-block;
+    
+}
+
+/*hasta aqui el header*/
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    padding-bottom: 2%;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+}
+
+article h2{
+    padding: 2%;
+    margin: 2%;
+}
+
+.segundo-titulo article img{
+    padding: 5%;
+    margin: 5%;
+    width: 80%;
+    border-radius: 100px;
+}
+
+
+.segundo-titulo{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+.segundo-titulo article p{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.seccion-tres article h3{
+    padding: 2%;
+    margin: 2%;
+}
+
+.seccion-tres{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+}
+
+.seccion-tres article{
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    display: inline-block;
+    
+}
+
+.articulo {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    margin: 1%;
+    padding: 1%;
+}
+
+.info-final{
+    text-align: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.info-final h4{
+    margin: 2%;
+    padding: 2%;
+}
+
+.info-final p{
+    margin: 2%;
+    padding: 2%;
+}
+
+.info-final img{
+    width: 80%;
+}
+
+img{
+    border-radius: 100px;
+}
+
+iframe{
+    border-radius: 30px;
+}
+
+
+footer{
+    color: white;
+    background-color:rgba(3, 1, 1, 0.644)  ;
+    text-align: center;
+    margin-top: 3%;
+    
+}
+
+footer a{
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 480px){
+    nav ul li a{
+        font-size: 0.7rem;
+    }
+
+    nav ul img{
+        display: none;
+    }
+
+    .segundo-titulo{
+        font-size: 0.8rem;
+    }
+    .segundo-titulo article p{
+        font-size: 0.5rem;
+    }
+    
+    .seccion-tres{
+        flex-direction: column;
+    } 
+   
+    .seccion-tres{
+        font-size: 0.8rem;
+    }
+    .articulo{
+        font-size: 0.5rem;
+    }
+    .info-final h4{
+        font-size: 0.8rem;
+    }
+    .info-final p{
+        font-size: 0.5rem;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+}
+
+
+/*---------HASTA AQUI MI INDEX-------------*/
+
+.titulo-personaje{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding: 10%;
+
+}
+
+.fotos-p ul{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr repeat(4);
+     grid-template-rows: 1fr repeat(5);
+     grid-template-areas: 
+     "p1 p2 p3 p4"
+     "p5 p6 p7 p8"
+     "p9 p10 p11 p12"
+     "p13 p14 p15 p16"
+     "p17 p18 p19 p20";
+
+}
+
+.p1{
+    grid-area: p1;
+}
+
+
+.p2{
+    grid-area: p2;
+}
+
+.p3{
+    grid-area: p3;
+}
+
+.p4{
+    grid-area: p4;
+}
+
+.p5{
+    grid-area: p5;
+}
+
+.p6{
+    grid-area: p6;
+}
+
+.p7{
+    grid-area: p7;
+}
+
+.p8{
+    grid-area: p8;
+}
+
+.p9{
+    grid-area: p9;
+}
+
+.p10{
+    grid-area: p10;
+}
+
+.p11{
+    grid-area: p11;
+}
+
+
+.p12{
+    grid-area: p12;
+}
+
+.p13{
+    grid-area: p13;
+}
+
+.p14{
+    grid-area: p14;
+}
+
+.p15{
+    grid-area: p15;
+}
+
+.p16{
+    grid-area: p16;
+}
+
+.p17{
+    grid-area: p17;
+}
+
+.p18{
+    grid-area: p18;
+}
+
+.p19{
+    grid-area: p19;
+}
+
+.p20{
+    grid-area: p20;
+}
+
+.fotos-p ul p{
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+.fotos-p ul li{
+    list-style: none;
+}
+
+@media screen and (max-width: 480px){
+
+    .titulo-personaje{
+        font-size: 1rem;
+    }
+
+    .fotos-p ul{
+        display: grid;
+        grid-template-columns: 1fr;
+         grid-template-rows: repeat(20, 1fr);
+         grid-template-areas: 
+         "p1"
+         "p2"
+         "p3"
+         "p4"
+         "p5"
+         "p6"
+         "p7"
+         "p8"
+         "p9"
+         "p10"
+         "p11"
+         "p12"
+         "p13"
+         "p14"
+         "p15"
+         "p16"
+         "p17"
+         "p18"
+         "p19"
+         "p20"
+    }
+    
+}
+
+/*----------PAGINA DE ENEMIGOS--------*/
+
+.titulo-enemigos{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    padding: 10%;
+}
+
+.fotos-e ul{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr repeat(4);
+     grid-template-rows: 1fr repeat(5);
+     grid-template-areas: 
+     "e1 e2 e3 e4"
+     "e5 e6 e7 e8"
+     "e9 e10 e11 e12"
+     "e13 e14 e15 e16"
+     "e17 e18 e19 e20";
+
+}
+
+.e1{
+    grid-area: e1;
+}
+
+
+.e2{
+    grid-area: e2;
+}
+
+.e3{
+    grid-area: e3;
+}
+
+.e4{
+    grid-area: e4;
+}
+
+.e5{
+    grid-area: e5;
+}
+
+.e6{
+    grid-area: e6;
+}
+
+.e7{
+    grid-area: e7;
+}
+
+.e8{
+    grid-area: e8;
+}
+
+.e9{
+    grid-area: e9;
+}
+
+.e10{
+    grid-area: e10;
+}
+
+.e11{
+    grid-area: e11;
+}
+
+
+.e12{
+    grid-area: e12;
+}
+
+.e13{
+    grid-area: e13;
+}
+
+.e14{
+    grid-area: e14;
+}
+
+.e15{
+    grid-area: e15;
+}
+
+.e16{
+    grid-area: e16;
+}
+
+.e17{
+    grid-area: e17;
+}
+
+.e18{
+    grid-area: e18;
+}
+
+.e19{
+    grid-area: e19;
+}
+
+.e20{
+    grid-area: e20;
+}
+
+.fotos-e ul p{
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+.fotos-e ul li{
+    list-style: none;
+}
+
+/*--------- PAGINA DE RAZAS--------*/
+
+.titulo-razas{
+    text-align: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10%;
+}
+
+.fotos-r{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+.fotos-r img{
+    width: 40%;
+    
+}
+
+/*----------MAS-----------*/
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+.mapa p{
+    padding: 1%;
+    margin: 1%;
+}
+
+.dragones h2{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+
+}
+
+.dragones ul li{
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.santuarios h3{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+    padding: 5%;
+    margin: 5%;
+}
+
+.santuarios ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+
+}
+
+
+.musica h3{
+    padding: 5%;
+    margin: 5%;
+
+}
