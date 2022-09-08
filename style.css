@@ -198,6 +198,8 @@ footer a{
 
 /*---------HASTA AQUI MI INDEX-------------*/
 
+
+/*------------------------------------PAGINA PERSONAJES---------------------------*/
 .titulo-personaje{
     color: white;
     font-family: 'Permanent Marker', cursive;
@@ -308,8 +310,10 @@ footer a{
     color: white;
 }
 
-.fotos-p ul li{
+.fotos-p ul li:hover{
     list-style: none;
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 @media screen and (max-width: 480px){
@@ -458,8 +462,10 @@ footer a{
     color: white;
 }
 
-.fotos-e ul li{
+.fotos-e ul li:hover{
     list-style: none;
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 /*--------- PAGINA DE RAZAS--------*/
@@ -480,7 +486,7 @@ footer a{
 }
 
 .fotos-r img{
-    width: 40%;
+    width: 90%;
     
 }
 
