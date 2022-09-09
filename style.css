@@ -160,7 +160,7 @@ footer a{
 
 @media screen and (max-width: 480px){
     nav ul li a{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
     nav ul img{
@@ -466,6 +466,41 @@ footer a{
     list-style: none;
     transform: scale(1.5);
     transition: 1s;
+}
+
+@media screen and (max-width: 480px){
+
+    .titulo-enemigos{
+        font-size: 1rem;
+    }
+
+    .fotos-e ul{
+        display: grid;
+        grid-template-columns: 1fr;
+         grid-template-rows: repeat(20, 1fr);
+         grid-template-areas: 
+         "e1"
+         "e2"
+         "e3"
+         "e4"
+         "e5"
+         "e6"
+         "e7"
+         "e8"
+         "e9"
+         "e10"
+         "e11"
+         "e12"
+         "e13"
+         "e14"
+         "e15"
+         "e16"
+         "e17"
+         "e18"
+         "e19"
+         "e20"
+    }
+    
 }
 
 /*--------- PAGINA DE RAZAS--------*/
