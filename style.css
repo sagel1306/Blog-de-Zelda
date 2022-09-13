@@ -216,6 +216,24 @@ footer a{
 
 }
 
+.bordes{
+    border-radius: 100px;
+    width: 60%;
+}
+
+.texto{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.mi-container p{
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+/*
 .fotos-p ul{
     display: grid;
     place-items: center;
@@ -319,11 +337,14 @@ footer a{
 }
 
 .fotos-p ul li:hover{
-    list-style: none;
     transform: scale(1.5);
     transition: 1s;
 }
 
+.fotos-p ul li{
+    list-style: none;
+}
+*/
 @media screen and (max-width: 480px){
 
     .titulo-personaje{
