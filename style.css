@@ -68,12 +68,10 @@ article h2{
     margin: 2%;
 }
 
-.segundo-titulo article img:hover{
+.segundo-titulo article img{
     padding-bottom: 7%;
     width: 80%;
     border-radius: 100px;
-    transform: scale(1.2);
-    transition: 1s;
 }
 
 
