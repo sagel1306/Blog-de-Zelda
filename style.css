@@ -8,9 +8,6 @@ html{
     font-size: 2rem;
 }
 
-.nav-propio{
-    color: white;
-}
 
 div{
     background-image: url(img/nuevo\ fondo\ marron.jpg);
@@ -22,22 +19,21 @@ div{
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     padding: 1%;
-    background-color:rgba(3, 1, 1, 0.644)  ;
 }
 
-
-nav ul li a{
-    display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
-    font-family: 'Permanent Marker', cursive;
-    color: white;
+.mi-nav a{
     text-decoration: none;
-    
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding-right: 10px;
 }
 
+.mi-nav a:hover{
+    color: blue;
+    transition: 1s;
+}
 
 header li{
     display: inline-block;

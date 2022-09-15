@@ -16,16 +16,22 @@
 <body>
     <div id="razas">
         <header>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">inicio</a></li>
-                    <li><a href="../Personajes/personajes.html">personajes</a></li>
-                    <li><a href="../Enemigos/Enemigos.html">enemigos</a></li>
-                    <li><a href="../Razas/Razas.html">razas</a></li>
-                    <li><a href="../Mas/mas.html">mas...</a></li>
-                </ul>
-            </nav>
-
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4 mi-nav">
+                  <a href="../index.html">Inicio</a>
+                  <a href="../Personajes/personajes.html">Personajes</a>
+                  <a href="../Enemigos/Enemigos.html">Enemigos</a>
+                  <a href="../Razas/Razas.html">Razas</a>
+                  <a href="../Mas/mas.html">Mas</a>
+                </div>
+              </div>
+              <nav class="navbar navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
         </header>
          <!--la info debe mostrarse al darle clic y se mostrara encima de la misma foto pero mas grande-->
          <h1 class="titulo-razas">Razas</h1>
