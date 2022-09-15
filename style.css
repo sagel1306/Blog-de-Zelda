@@ -630,3 +630,41 @@ footer a{
     margin: 5%;
 
 }
+
+/*---------------ANIMACIONES DE DESAFIO--------------*/
+.foto1:hover{
+        display: block;
+        list-style: none;
+        transform: scale(1.2);
+        transition: 1s;   
+}
+.foto2:hover{
+    display: block;
+    list-style: none;
+    transform: scale(1.2);
+    transition: 1s;   
+}
+.foto3:hover{
+    display: block;
+    list-style: none;
+    transform: scale(1.2);
+    transition: 1s;   
+}
+.foto4:hover{
+    display: block;
+    list-style: none;
+    transform: scale(1.2);
+    transition: 1s;   
+}
+.foto5:hover{
+    display: block;
+    list-style: none;
+    transform: scale(1.2);
+    transition: 1s;   
+}
+
+
+.ani nav{
+    padding-left: 10%;
+    padding-right: 10%;
+}
