@@ -17,22 +17,21 @@
 <body>
     <div id="primero">
         <header>
-            <nav>
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link nav-propio" aria-current="page" href="./Personajes/personajes.html">Personajes</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link nav-propio" href="./Enemigos/Enemigos.html">Enemigos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link nav-propio" href="./Razas/Razas.html">Razas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-propio" href="./Mas/mas.html">Mas...</a>
-                    </li>
-                  </ul>
-            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4 mi-nav">
+                    <a href="./Personajes/personajes.html">Heroes</a>
+                    <a href="./Enemigos/Enemigos.html">Villanos</a>
+                    <a href="./Razas/Razas.html">Razas</a>
+                    <a href="./Mas/mas.html">Mas</a>
+                </div>
+              </div>
+              <nav class="navbar navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
         </header>
         <section class="titulo">
             <img src="./img/titulo.jpg"width="100%" height="670px" alt="" class="fotico">

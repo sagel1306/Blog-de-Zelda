@@ -8,11 +8,8 @@ html{
     font-size: 2rem;
 }
 
-.nav-propio{
-    color: white;
-}
 
-div{
+body{
     background-image: url(img/nuevo\ fondo\ marron.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -22,22 +19,21 @@ div{
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     padding: 1%;
-    background-color:rgba(3, 1, 1, 0.644)  ;
 }
 
-
-nav ul li a{
-    display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
-    font-family: 'Permanent Marker', cursive;
-    color: white;
+.mi-nav a{
     text-decoration: none;
-    
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding-right: 10px;
 }
 
+.mi-nav a:hover{
+    color: blue;
+    transition: 1s;
+}
 
 header li{
     display: inline-block;
@@ -216,19 +212,8 @@ footer a{
     color: white;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    padding: 10%;
+    padding:5%;
 
-}
-
-.bordes{
-    border-radius: 100px;
-    width: 60%;
-}
-
-.texto{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 0.7rem;
-    color: white;
 }
 
 .mi-container p{
@@ -237,9 +222,10 @@ footer a{
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.548);
-    border-radius: 5%;
+    border-radius: 10%;
     font-family: 'Permanent Marker', cursive;
     font-size: 0.5rem;
+    border: solid rgba(0, 0, 0, 0.562);
 }
 
 .mi-container div img{
@@ -260,43 +246,12 @@ footer a{
     border-radius: 40px;
 }
 
-.mi-container div{
+.mi-container{
     background-image: url(./img/paisaje.jpg);
     border-radius: 40px;
-}
-
-@media screen and (max-width: 480px){
-
-    .titulo-personaje{
-        font-size: 1rem;
-    }
-
-    .fotos-p ul{
-        display: grid;
-        grid-template-columns: 1fr;
-         grid-template-rows: repeat(20, 1fr);
-         grid-template-areas: 
-         "p1"
-         "p2"
-         "p3"
-         "p4"
-         "p5"
-         "p6"
-         "p7"
-         "p8"
-         "p9"
-         "p10"
-         "p11"
-         "p12"
-         "p13"
-         "p14"
-         "p15"
-         "p16"
-         "p17"
-         "p18"
-         "p19"
-         "p20"
-    }
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     
 }
 
@@ -306,153 +261,46 @@ footer a{
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     color: white;
-    padding: 10%;
-}
-
-.fotos-e ul{
-    display: grid;
-    list-style: none;
-    grid-template-columns: 1fr repeat(4);
-    grid-template-rows: 1fr repeat(5);
-    grid-template-areas: 
-    "e1 e2 e3 e4"
-    "e5 e6 e7 e8"
-    "e9 e10 e11 e12"
-    "e13 e14 e15 e16"
-    "e17 e18 e19 e20";
-
-}
-
-.e1{
-    grid-area: e1;
+    padding: 5%;
 }
 
 
-.e2{
-    grid-area: e2;
-}
-
-.e3{
-    grid-area: e3;
-}
-
-.e4{
-    grid-area: e4;
-}
-
-.e5{
-    grid-area: e5;
-}
-
-.e6{
-    grid-area: e6;
-}
-
-.e7{
-    grid-area: e7;
-}
-
-.e8{
-    grid-area: e8;
-}
-
-.e9{
-    grid-area: e9;
-}
-
-.e10{
-    grid-area: e10;
-}
-
-.e11{
-    grid-area: e11;
-}
-
-
-.e12{
-    grid-area: e12;
-}
-
-.e13{
-    grid-area: e13;
-}
-
-.e14{
-    grid-area: e14;
-}
-
-.e15{
-    grid-area: e15;
-}
-
-.e16{
-    grid-area: e16;
-}
-
-.e17{
-    grid-area: e17;
-}
-
-.e18{
-    grid-area: e18;
-}
-
-.e19{
-    grid-area: e19;
-}
-
-.e20{
-    grid-area: e20;
-}
-
-.fotos-e ul p{
-    padding: 1%;
-    text-align: center;
+.mi-container-enemigos p{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 10%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 0.5rem;
+    border: solid rgba(0, 0, 0, 0.562);
 }
 
-.fotos-e ul img{
-    padding-top: 5%;
+.mi-container-enemigos div img{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border:solid rgba(0, 0, 0, 0.795);
 }
 
-.fotos-e ul li:hover{
+.mi-container-enemigos div img:hover{
     list-style: none;
     transform: scale(1.2);
     transition: 1s;
+    border-radius:40px;
 }
 
-@media screen and (max-width: 480px){
+.mi-container-enemigos{
+    border: solid rgb(0, 0, 0);
+    border-radius: 40px;
+}
 
-    .titulo-enemigos{
-        font-size: 1rem;
-    }
-
-    .fotos-e ul{
-        display: grid;
-        grid-template-columns: 1fr;
-         grid-template-rows: repeat(20, 1fr);
-         grid-template-areas: 
-         "e1"
-         "e2"
-         "e3"
-         "e4"
-         "e5"
-         "e6"
-         "e7"
-         "e8"
-         "e9"
-         "e10"
-         "e11"
-         "e12"
-         "e13"
-         "e14"
-         "e15"
-         "e16"
-         "e17"
-         "e18"
-         "e19"
-         "e20"
-    }
+.mi-container-enemigos{
+    background-image: url(./img/luna\ de\ sangre.jpg);
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     
 }
 
@@ -462,7 +310,15 @@ footer a{
     text-align: center;
     color: white;
     font-family: 'Permanent Marker', cursive;
-    padding: 10%;
+    padding: 5%;
+}
+
+.edit-c{
+    margin: auto;
+}
+
+.p-carrusel{
+    margin-bottom: 7%;
 }
 
 .fotos-r{

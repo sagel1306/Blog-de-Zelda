@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enemigos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="../img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,60 +16,77 @@
 <body>
     <div id="enemigos">
         <header>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">inicio</a></li>
-                    <li><a href="../Personajes/personajes.html">personajes</a></li>
-                    <li><a href="../Enemigos/Enemigos.html">enemigos</a></li>
-                    <li><a href="../Razas/Razas.html">razas</a></li>
-                    <li><a href="../Mas/mas.html">mas...</a></li>
-                </ul>
-            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4 mi-nav">
+                  <a href="../index.html">Inicio</a>
+                  <a href="../Personajes/personajes.html">Heroes</a>
+                  <a href="../Enemigos/Enemigos.html">Villanos</a>
+                  <a href="../Razas/Razas.html">Razas</a>
+                  <a href="../Mas/mas.html">Mas</a>
+                </div>
+              </div>
+              <nav class="navbar navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
         </header>
-        <h1 class="titulo-enemigos">Enemigos</h1>
+        <h1 class="titulo-enemigos">Villanos</h1>
         <section class="fotos-e">
-            <ul>
-                <li class="e1"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e2"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e3"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e4"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e5"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e6"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e7"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e8"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e9"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e10"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e11"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e12"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e13"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e14"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e15"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e16"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e17"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e18"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e19"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>
-                <li class="e20"><img src="../img/ejemplo.png"width=300 alt=""></li>
-                <p>Lorem ipsum dolor sit amet</p>            
-            </ul>
+          <div class="container mi-container-enemigos">
+            <div class="row">
+              <div class="col-md-3 fondo">
+                <img src="../img/link.jpeg" width="100%" alt="">
+                <p>Joven descendiente de un linaje de guardias imperiales al servicio de la familia real de Hyrule.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/zelda.jpeg" width="100%" alt="">
+                <p>Princesa de Hyrule por cuyas venas corre la sangre de una Diosa, herencia de sus antepasados.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/impa.jpeg" width="100%" alt="">
+                <p>Consejera sheikah al servivio de la familia real en el castillo de Hyrule</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/daruk.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/desendiente daruk.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/urbosa.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/ryu.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/mipha.jpeg" width="100%" alt="">
+                <p>Princesa de la tribu zora que ostenta el poder de la sanacion.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/sidon.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/revali.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/orni blanco.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-3">
+                <img src="../img/rey.jpeg" width="100%" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div> 
+            </div>
+          </div>
         </section>
         <!--aqui empieza el footer-->
         <footer>
@@ -76,5 +94,6 @@
             <p>copyrigth 2022</p>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
