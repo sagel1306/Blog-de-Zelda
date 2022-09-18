@@ -355,6 +355,10 @@ footer a{
     margin: 1%;
 }
 
+.mapa img{
+    border: solid black;
+}
+
 .dragones h2{
     color: white;
     font-family: 'Permanent Marker', cursive;
@@ -364,19 +368,36 @@ footer a{
 
 }
 
-.dragones ul li{
+.dragones ul{
     display: flex;
-    align-items: flex-start;
     color: white;
     text-align: center;
     font-size: 50%;
     font-family: 'Permanent Marker', cursive;
+    list-style: none;
+    align-items: center;
 }
 
-.orden-dragones{
-    display: flex;
-    flex-direction:column
+.dragones img{
+    border-radius: 0;
 }
+
+.po-dragones{
+    margin-top: 23%;
+}
+
+.eldra{
+    margin: 3%;
+}
+
+.nayen{
+    margin: 3%;
+}
+
+.farodra{
+    margin: 3%;
+}
+
 
 .santuarios h3{
     font-family: 'Permanent Marker', cursive;
@@ -413,11 +434,18 @@ footer a{
 }
 @media screen and (max-width: 480px){
     .dragones ul{
-        display: flex;
         flex-direction: column;
     }
-}
 
-.mapa img{
-    border: solid black;
+    .santuarios ul li{
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .musica{
+        width: 40%;
+        align-items: center;
+        text-align: center;
+    }
+
 }
