@@ -12,27 +12,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
     <div id="mas">
         <header>
-            <img class="nombre" src="../img/nombre.png" alt="">
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="p-4 mi-nav">
-                  <a href="../index.html">Inicio</a>
-                  <a href="../Personajes/personajes.html">Heroes</a>
-                  <a href="../Enemigos/Enemigos.html">Villanos</a>
-                  <a href="../Razas/Razas.html">Razas</a>
-                  <a href="../Mas/mas.html">Mas</a>
-                </div>
-              </div>
-              <nav class="navbar navbar-dark">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-              </nav>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <a href="#" class="enlace">
+                    <img src="../img/nombre.png" alt="" class="logo">
+                </a>
+                <ul>
+                    <li><a href="../index.html">Inecio</a></li>
+                    <li><a href="../Personajes/personajes.html">Personajes</a></li>
+                    <li><a href="../Enemigos/Enemigos.html">Enemigos</a></li>
+                    <li><a href="../Razas/Razas.html">Razas</a></li>
+                    <li><a href="../Mas/mas.html">Mas</a></li>
+                </ul>
+            </nav>
         </header>
         <!--imagen de mapa debe estar difuminada y revelarse en full screen al darle click-->
         <section class="mapa">
