@@ -113,8 +113,9 @@ article h2 {
 .segundo-titulo {
   font-family: "Permanent Marker", cursive;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
+  margin: 2%;
 }
 .segundo-titulo article img {
   margin-bottom: 7%;
@@ -132,19 +133,25 @@ article h2 {
   text-align: center;
   color: white;
 }
-.seccion-tres article {
+.seccion-tres div {
   display: flex;
   align-items: center;
   margin: 1%;
   padding: 1%;
   display: inline-block;
 }
-.seccion-tres article h3 {
+.seccion-tres div h3 {
   padding: 2%;
   margin: 2%;
 }
-.seccion-tres article img {
-  border-radius: 40px;
+.seccion-tres div img {
+  border-radius: 80px;
+  width: 80%;
+  height: 70%;
+}
+.seccion-tres div iframe {
+  width: 80%;
+  border-radius: 80px;
 }
 
 .articulo {

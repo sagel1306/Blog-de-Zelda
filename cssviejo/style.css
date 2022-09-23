@@ -470,6 +470,11 @@ footer a{
     
 }
 
+.santuarios iframe{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
 .musica{
     display: flex;
     flex-direction: column;
@@ -480,11 +485,19 @@ footer a{
 
 }
 
+.musica iframe{
+    width: 80%;
+}
+
 
 .musica h3{
     padding: 5%;
     margin: 5%;
 
+}
+
+ul{
+    padding-left: 0%;
 }
 @media screen and (max-width: 480px){
     .dragones ul{
@@ -493,11 +506,9 @@ footer a{
 
     .santuarios ul li{
         flex-direction: column;
-        width: 40%;
     }
 
     .musica{
-        width: 40%;
         align-items: center;
         text-align: center;
     }

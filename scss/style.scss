@@ -123,8 +123,9 @@ article{
 .segundo-titulo{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white; 
+    margin: 2%;
     article{ 
         img{
             margin-bottom: 7%;
@@ -143,7 +144,7 @@ article{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     color: white;
-    article{
+    div{
         display: flex;
         align-items: center;
         margin: 1%;
@@ -154,7 +155,13 @@ article{
             margin: 2%;
         }
         img{
-            border-radius: 40px;
+            border-radius: 80px;
+            width: 80%;
+            height: 70%;
+        }
+        iframe{
+            width: 80%;
+            border-radius: 80px;
         }
     }
 }
