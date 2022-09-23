@@ -90,6 +90,10 @@ header nav .enlace .logo {
     color: aqua;
     transition: 1s;
   }
+  .fotico {
+    width: 100%;
+    height: 60%;
+  }
 }
 .fotico {
   display: flex;
