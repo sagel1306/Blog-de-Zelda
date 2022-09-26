@@ -1,0 +1,8 @@
+@mixin color-de-letras{
+    color: red;
+    font-size: 50px;
+}
+
+p{
+    @include color-de-letras();
+}

@@ -1,0 +1,19 @@
+%propiedades{
+    font-family: "Permanent Marker", cursive;
+}
+
+body{
+    @extend %propiedades;
+}
+.segundo-titulo{
+    @extend %propiedades;
+}
+.seccion-tres{
+    @extend %propiedades;
+}
+.articulo{
+    @extend %propiedades;
+}
+.info-final{
+    @extend %propiedades;
+}

@@ -1,3 +1,12 @@
+p {
+  color: red;
+  font-size: 50px;
+}
+
+.info-final, .articulo, .seccion-tres, .segundo-titulo, body {
+  font-family: "Permanent Marker", cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +19,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  font-family: "Permanent Marker", cursive;
 }
 
 header {
@@ -18,7 +26,8 @@ header {
   flex-direction: row;
 }
 header nav {
-  background-color: rgba(255, 1, 1, 0.308);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(255, 17, 17) 100%);
   height: 80px;
   width: 100%;
 }
@@ -64,6 +73,9 @@ header nav .enlace .logo {
   header nav .checkbtn {
     display: block;
   }
+  nav {
+    position: fixed;
+  }
   header nav ul {
     position: fixed;
     width: 100%;
@@ -93,6 +105,11 @@ header nav .enlace .logo {
   .fotico {
     width: 100%;
     height: 60%;
+    padding-top: 16%;
+  }
+  iframe {
+    width: 300px;
+    height: 300px;
   }
 }
 .fotico {
@@ -109,13 +126,12 @@ article {
   justify-content: center;
   align-items: center;
 }
-article h2 {
+article h1 {
   padding-top: 6%;
   margin: 2%;
 }
 
 .segundo-titulo {
-  font-family: "Permanent Marker", cursive;
   text-align: center;
   font-size: 1rem;
   color: white;
@@ -133,7 +149,6 @@ article h2 {
 }
 
 .seccion-tres {
-  font-family: "Permanent Marker", cursive;
   text-align: center;
   color: white;
 }
@@ -159,7 +174,6 @@ article h2 {
 }
 
 .articulo {
-  font-family: "Permanent Marker", cursive;
   text-align: center;
   color: white;
   font-size: 0.8rem;
@@ -170,7 +184,6 @@ article h2 {
 .info-final {
   text-align: center;
   color: white;
-  font-family: "Permanent Marker", cursive;
 }
 .info-final h4 {
   margin: 2%;
@@ -186,6 +199,7 @@ article h2 {
 }
 
 img {
+  border: 4px solid blue;
   border-radius: 100px;
   vertical-align: 0;
 }
