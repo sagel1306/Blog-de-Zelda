@@ -1,8 +1,3 @@
-p {
-  color: red;
-  font-size: 50px;
-}
-
 .info-final, .articulo, .seccion-tres, .segundo-titulo, body {
   font-family: "Permanent Marker", cursive;
 }
@@ -62,7 +57,6 @@ header nav ul li a:hover {
   transition: 1s;
 }
 header nav .enlace {
-  position: absolute;
   padding: 10px 50px;
 }
 header nav .enlace .logo {
@@ -93,7 +87,7 @@ header nav .enlace .logo {
     text-align: center;
   }
   nav ul li a {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   #check:checked ~ ul {
     left: 0;
@@ -107,9 +101,20 @@ header nav .enlace .logo {
     height: 60%;
     padding-top: 16%;
   }
-  iframe {
-    width: 300px;
-    height: 300px;
+  .seccion-tres div {
+    flex-direction: column;
+  }
+  .seccion-tres .m-r-m img {
+    width: 80% !important;
+  }
+  .seccion-tres div iframe {
+    display: none;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .info-final p {
+    font-size: 1rem !important;
   }
 }
 .fotico {
@@ -130,10 +135,13 @@ article h1 {
   padding-top: 6%;
   margin: 2%;
 }
+article p {
+  margin-bottom: 2%;
+}
 
 .segundo-titulo {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: white;
   margin: 2%;
 }
@@ -144,7 +152,7 @@ article h1 {
 }
 .segundo-titulo article img p {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   padding: 2%;
 }
 
@@ -152,31 +160,31 @@ article h1 {
   text-align: center;
   color: white;
 }
-.seccion-tres div {
+.seccion-tres .m-r-m {
   display: flex;
   align-items: center;
   margin: 1%;
   padding: 1%;
-  display: inline-block;
 }
-.seccion-tres div h3 {
+.seccion-tres .m-r-m h3 {
   padding: 2%;
   margin: 2%;
 }
-.seccion-tres div img {
-  border-radius: 80px;
-  width: 80%;
-  height: 70%;
+.seccion-tres .m-r-m img {
+  border-radius: 100px;
+  width: 45%;
+  margin: 2%;
 }
-.seccion-tres div iframe {
-  width: 80%;
+.seccion-tres .m-r-m iframe {
+  width: 50%;
   border-radius: 80px;
+  margin: 2%;
 }
 
 .articulo {
   text-align: center;
   color: white;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   margin: 1%;
   padding: 1%;
 }
@@ -192,14 +200,13 @@ article h1 {
 .info-final p {
   margin: 2%;
   padding: 2%;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
 }
 .info-final img {
   width: 80%;
 }
 
 img {
-  border: 4px solid blue;
   border-radius: 100px;
   vertical-align: 0;
 }
@@ -220,6 +227,227 @@ footer {
 }
 footer a {
   text-decoration: none;
+}
+
+/*----------------------PERSONAJES------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.titulo-personaje {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  padding: 5%;
+}
+
+.mi-container {
+  border: white 8px outset;
+  border-radius: 40px;
+  background-image: url(../img/paisaje.jpg);
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.mi-container h2 {
+  text-align: center;
+  color: black;
+}
+.mi-container p {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: start;
+  background-color: rgba(0, 0, 0, 0.548);
+  border-radius: 10%;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1rem;
+  border: solid rgba(0, 0, 0, 0.562);
+}
+.mi-container div img {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: blue 5px double;
+}
+.mi-container div img:hover {
+  list-style: none;
+  transform: scale(1);
+  transition: 1s;
+  border-radius: 40px;
+}
+
+/*---------------------ENEMIGOS----------------------*/
+.titulo-enemigos {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  padding: 5%;
+}
+
+.mi-container-enemigos {
+  border: white 8px outset;
+  border-radius: 40px;
+  background-image: url(../img/luna\ de\ sangre.jpg);
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.mi-container-enemigos h2 {
+  text-align: center;
+  color: white;
+}
+.mi-container-enemigos p {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: start;
+  background-color: rgba(0, 0, 0, 0.548);
+  border-radius: 10%;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1rem;
+  border: solid rgba(0, 0, 0, 0.562);
+}
+.mi-container-enemigos img {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: red 5px double;
+}
+.mi-container-enemigos img:hover {
+  list-style: none;
+  transform: scale(1);
+  transition: 1s;
+  border-radius: 40px;
+}
+
+/*-------------------------RAZAS------------------------*/
+.titulo-razas {
+  text-align: center;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  padding: 5%;
+}
+
+.edit-c {
+  margin: auto;
+}
+
+.p-carrusel {
+  margin-bottom: 7%;
+}
+
+.p-carrusel p {
+  color: rgb(0, 0, 0);
+}
+
+/*---------------------------MAS----------------------------*/
+.mapa {
+  flex-direction: column;
+  align-items: center;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+.mapa p {
+  font-size: 1rem;
+  padding: 1%;
+  margin: 1%;
+}
+.mapa img {
+  border: solid rgba(0, 0, 0, 0.658);
+}
+
+.dragones h2 {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  padding: 2%;
+  margin: 2%;
+}
+.dragones ul {
+  display: flex;
+  color: white;
+  text-align: center;
+  font-size: 50%;
+  font-family: "Permanent Marker", cursive;
+  list-style: none;
+  align-items: center;
+}
+.dragones ul p {
+  font-size: 1rem;
+}
+.dragones img {
+  border-radius: 0;
+}
+.dragones .po-dragones {
+  margin-top: 23%;
+}
+.dragones .eldra {
+  margin: 3%;
+}
+.dragones .nayen {
+  margin: 3%;
+}
+.dragones .farodra {
+  margin: 3%;
+}
+
+.santuarios h3 {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  color: white;
+  padding: 5%;
+  margin: 5%;
+}
+.santuarios ul {
+  padding-left: 0%;
+}
+.santuarios ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.santuarios ul li iframe {
+  width: 80%;
+  margin: 20px;
+}
+
+.musica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+.musica h3 {
+  padding: 5%;
+  margin: 5%;
+}
+.musica iframe {
+  width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+  .mapa {
+    padding-top: 18%;
+  }
+  .dragones ul {
+    display: block;
+  }
+  .santuarios ul li {
+    flex-direction: column;
+  }
+  .musica {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

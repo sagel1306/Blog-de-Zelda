@@ -1,0 +1,114 @@
+/*---------------------------MAS----------------------------*/
+.mapa{
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    p{
+        font-size: 1rem;
+        padding: 1%;
+        margin: 1%;
+    }
+    img{
+        border: solid rgba(0, 0, 0, 0.658);
+    }
+}
+
+.dragones{
+    h2{
+        color: white;
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        padding: 2%;
+        margin: 2%;
+    }
+    ul{
+        display: flex;
+        color: white;
+        text-align: center;
+        font-size: 50%;
+        font-family: 'Permanent Marker', cursive;
+        list-style: none;
+        align-items: center;
+            p{
+                font-size: 1rem;
+            }
+    }
+    img{
+        border-radius: 0;
+    }
+    .po-dragones{
+        margin-top: 23%;
+    }
+    
+    .eldra{
+        margin: 3%;
+    }
+    
+    .nayen{
+        margin: 3%;
+    }
+    
+    .farodra{
+        margin: 3%;
+    }
+}
+
+.santuarios{
+    h3{
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        color: white;
+        padding: 5%;
+        margin: 5%;
+    }
+    ul{
+        padding-left: 0%;
+        li{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            iframe{
+                width: 80%;
+                margin: 20px;
+            }
+        }
+    }
+}
+.musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    h3{
+        padding: 5%;
+        margin: 5%;
+    }
+    iframe{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 480px){
+    .mapa{
+        padding-top: 18%;
+    }
+
+    .dragones ul{
+        display: block;
+    }
+
+    .santuarios ul li{
+        flex-direction: column;
+    }
+
+    .musica{
+        align-items: center;
+        text-align: center;
+    }
+
+}
