@@ -449,5 +449,14 @@ footer a {
     text-align: center;
   }
 }
+form {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 4%;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 34%, rgb(148, 187, 233) 69%);
+  border-radius: 10px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
